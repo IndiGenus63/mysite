@@ -18,6 +18,11 @@ module.exports = function(eleventyConfig) {
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
 
+	// Copy `img/favicon/` to `_site/`
+	// eleventyConfig.addPassthroughCopy({ 
+	// 	"/public/favicons/": "/" 
+	// });
+
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
